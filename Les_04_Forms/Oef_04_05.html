@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+</head>
+
+<body>
+    <form action="registreren.php" method="get">
+        <div>
+            <label for="voornaam">Voornaam: <input type="text" name="voornaam" id="voornaam" required> </label>
+        </div>
+        <div>
+            <label for="familienaam">Familienaam: <input type="text" name="familienaam" id="familienaam" required> </label>
+        </div>
+<div>
+    <label for="provincie">Provincie: </label>
+    <select id="provincie" name="provincie">
+        <option value="limburg">Limburg</option>
+        <option value="antwerpen">Antwerpen</option>
+        <option value="oostvlaanderen">Oost-Vlaanderen</option>
+        <option value="westvlaanderen">West-Vlaanderen</option>
+        <option value="vlaamsbrabant">Vlaams-Brabant</option>
+        <option value="waalsbrabant">Waals-Brabant</option>
+        <option value="luik">Luik</option>
+        <option value="namen">Namen</option>
+        <option value="henegouwen">Henegouwen</option>
+    </select>
+</div>
+<div>
+    <fieldset>
+        <legend>Geslacht</legend>
+        <label for="man">Man:<input type="radio" name="geslacht" id="man"></label>
+        <label for="vrouw">Vrouw:<input type="radio" name="geslacht" id="vrouw"></label>
+        <label for="ander">Ander:<input type="radio" name="geslacht" id="ander"></label>
+    </fieldset>
+</div>
+<div>
+    <label for="foto">Foto <input type="image" required><textarea name="geenbestandgeselecteerd">Geen bestand geselecteerd.</textarea> </label>
+</div>
+<div>
+    <label for="checkbox">Ik ga akkoord met de algemene voorwaarden: <input type="checkbox" name="checkbox"> </label>
+</div>
+
+
+<input type="submit" value="Registreren">
+    </form>
+</body>
+
+
+
+
+
+</html>
