@@ -1,0 +1,21 @@
+
+a
+{
+    color: red;
+    text-decoration: none;
+}
+a:hover
+{
+    color: blue;
+}
+
+a:active
+{
+    background-color: darkviolet;
+}
+
+.Links
+{
+    color: red;
+    text-decoration: none;
+}
