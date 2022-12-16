@@ -1,0 +1,52 @@
+<!DOCTYPE html >
+<html lang="nl">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Afbeeldingen/favicon.png.png">
+    <title>Contact</title>
+</head>
+
+<div class="navigatiemenu">
+    <a href="index.html">Home</a>
+    <a href="cv.html">CV</a>
+    <a href="ervaring.html">Ervaring</a>
+    <a href="hobbys_interesses.html">Hobby's & interesses</a>
+    <a href="contact.html">Contact</a>
+</div> 
+
+<h1>Hoe kan u mij bereiken?</h1>
+<ul>
+<li>Via e-mail: <a href="mailto:erikakraus@me.com">E-mail versturen</a></li>
+<li>Via LinkedIn: <a href="https://www.linkedin.com/in/erikakraus-/">Naar LinkedIn-pagina gaan.</a></li>
+<li>Via het onderstaande formulier:</li>
+</ul>
+
+<div>
+ <form action="Contact.php" method="post">
+        <div>
+            <label for="voornaam">Voornaam: <input type="text" name="voornaam" id="voornaam"></label>
+        </div>
+        <div>
+            <label for="familienaam">Familienaam: <input type="text" name="familienaam" id="familienaam"></label>
+        </div>
+        <div>
+            <label for="email">E-mail: <input type="email" name="email" id="email" required></label>
+        </div>
+        <div>
+            <label for="onderwerp">Onderwerp: <input type="text" name="onderwerp" id="onderwerp"></label>
+        </div>
+        <div>
+            <textarea name="boodschap" rows="10" cols="30">
+            </textarea>
+        </div>
+        <input type="submit" value="Versturen">
+
+    </form>
+</div>
+
+
+</body>
