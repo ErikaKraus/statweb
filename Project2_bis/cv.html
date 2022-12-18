@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="nl-be">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="widgt=device-width" , initial-scale="1.0">
+  <link rel="icon" type="image/ico" href="favicon.ico" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <title>Welkom</title>
+</head>
+
+<body>
+  <!--navbar-->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">ERIKA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Welkom</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cv.html">CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hobby.html">Hobby's</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  <!--navbar end-->
+
+  <!--Opleiding-->
+  <div class="spatiering">
+    <h1 class="fw-light">Opleidingen</h1>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">2022 - 2025: Graduaat Programmeren (Thomas More Kempen Campus Geel)</li>
+      <li class="list-group-item">2015 - 2019: Office Management, Bedrijfsvertaler-tolk (Thomas More Kempen Campus Geel)
+        Geslaagd met onderscheiding</li>
+      <li class="list-group-item">2012 - 2015: Taal- en Letterkunde, Engels-Spaans (KU Leuven, Leuven)</li>
+      <li class="list-group-item">2009 - 2010: Journalistiek (Plantijn Hogeschool, Antwerpen)</li>
+      <li class="list-group-item">2008 - 2009: Informatiemanagement en Multimedia (KHMechelen, Mechelen)</li>
+      <li class="list-group-item">2007 - 2008: Toegepaste taalkunde, Nederlands-Engels-Spaans (Lessius, Antwerpen)</li>
+    </ul>
+  </div>
+  <div class="b-example-divider"></div>
+  <!--opleiding stopt-->
+
+
+  <!--Skills -> carrousel-->
+  <div class="spatiering">
+
+    <h1 class="fw-light">Skills</h1>
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-12">
+
+        <div class="card">
+          <div class="card-body">
+            <div class="owl-carousel owl-theme">
+              <div class="item"> <img src="images/html_500px.png" alt="Client 1" /> </div>
+              <div class="item"> <img src="images/css _500px.png" alt="Client 2" /></div>
+              <div class="item"> <img src="images/bootstrap_500px.png" alt="Client 3" /> </div>
+              <div class="item"> <img src="images/c_sharp_500px.png" alt="Client 4" /></div>
+              <div class="item"> <img src="images/sql_500px.png" alt="Client 5" /> </div>
+              <div class="item"> <img src="images/microsoftoffice_500px.png" alt="Client 6" /> </div>
+              <div class="item"> <img src="images/canva_500px.png" alt="Client 7" /> </div>
+              <div class="item"> <img src="images/JavaScript-Logo.png" alt="Client 8" /> </div>
+
+
+
+            </div>
+            <!-- /carousel -->
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js "
+              integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n "
+              crossorigin="anonymous ">
+              </script>
+
+            <script src="vendor/OwlCarousel2/owl.carousel.min.js " type="text/javascript "></script>
+            <script type="text/javascript ">
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 8
+                }
+            }
+        })
+    </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+          <!--skills ends-->
+
+          <!--footer-->
+          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                  <use xlink:href="#bootstrap"></use>
+                </svg>
+              </a>
+              <span class="mb-3 mb-md-0 text-muted">© Erika Kraus</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3"><a class="text-muted" href="www.twitter.com"><img src="images/twitter-svgrepo-com.svg"
+                    Bootstrap" width="20" height="20">
+              <li class="ms-3"><a class="text-muted" href="www.instagram.com"><img
+                    src="images/instagram-svgrepo-com.svg" alt="Bootstrap" width="25" height="25">
+              <li class="ms-3"><a class="text-muted" href="www.facebook.com"><img src="images/facebook-svgrepo-com.svg"
+                    alt="Bootstrap" width="20" height="20">
+            </ul>
+          </footer>
+          <!--footer end-->
+
+          <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

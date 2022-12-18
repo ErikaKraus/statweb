@@ -7,13 +7,13 @@
   <meta name="viewport" content="widgt=device-width" , initial-scale="1.0">
   <link rel="icon" type="image/png" href="images/favicon.png.png">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contact.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <title>Contact</title>
 </head>
 
-<body>
+<body class="backgroundimage">
   <!--Navigatiebar-->
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
@@ -39,65 +39,117 @@
       </div>
     </div>
   </nav>
+  <!--navbar ends-->
+
+    
 
   <!--waar kan je mij vinden? e-mail, mobiel, linkedin-->
-  <h1>Waar kan je mij contacteren?</h1>
-  <!--email icon-->
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
-    <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
-    <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-  </svg>
-    <!--telefoon icon-->
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-    <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-  </svg>
-
+  <div class="spatiering">
+    <h1 class="fw-light">Waar kan je mij contacteren?</h1>
+    <div class="margarine">
+      <ul class="list-group list-group-horizontal">
+        <li class="list-group-item border-0 bg-transparent"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+            <path
+              d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z" />
+            <path
+              d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z" />
+          </svg></li>
+        <li class="list-group-item border-0 bg-transparent">erikakraus@me.com</li>
+      </ul>
+      <ul class="list-group list-group-horizontal-sm">
+        <li class="list-group-item border-0 bg-transparent"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+          </svg></li>
+        <li class="list-group-item border-0 bg-transparent">+32 478 09 29 57</li>
+      </ul>
+      <ul class="list-group list-group-horizontal-md">
+        <li class="list-group-item border-0 bg-transparent"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path
+              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+          </svg></li>
+        <li class="list-group-item border-0 bg-transparent"><a href="https://www.linkedin.com/in/erikakraus-/">LinkedIn</a></li>
+      </ul>
+   </div>
+  </div>
+  <div class="b-example-divider"></div>
 
   <!--formulier-->
-  <h1>Wil je mij contacteren?</h1>
-  
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Voornaam</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" required placeholder="Jane">
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Naam</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" required placeholder="Doe">
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">E-mailaddres</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="jane@doe.com">
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Skill</label>
-    <select class="form-select" aria-label="Default select example">Skills
-      <option selected>Kies de gewenste skill</option>
-      <option value="1">Html</option>
-      <option value="2">CSS</option>
-      <option value="3">Bootstrap</option>
-      <option value="4">C#</option>
-     
+  <div class="spatiering">
+  <h1 class="fw-light">Neem contact op</h1>
+  <div class="margarine">
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="validationDefault01" class="form-label">Voornaam</label>
+      <input type="text" class="form-control" id="validationDefault01" value="" placeholder="Voornaam" required>
+    </div>
+    <div class="col-md-6">
+      <label for="validationDefault02" class="form-label">Achternaam</label>
+      <input type="text" class="form-control" id="validationDefault02" value="" placeholder="Achternaam" required>
+    </div>
+    <div class="col-md-6">
+      <label for="validationDefaultDefault03" class="form-label">E-mailadres</label>
+      <div class="input-group">
+        <input type="email" class="form-control" id="validationDefaultDefault03" value="" placeholder="E-mailadres"
+          required>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationDefault04" class="form-label">Skills</label>
+      <select class="form-select" id="validationDefault04" required>
+        <option selected disabled value="">Kies de gewenste skill</option>
+        <option value="1">Html</option>
+        <option value="2">CSS</option>
+        <option value="3">Bootstrap</option>
+        <option value="4">C#</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Vraag </label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Stel hier je vraag"></textarea>
+    </div>
+    </div>
+    <div class="margarine">
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Verzend</button>
+    </div>
+  </form>
+</div>
+</div>
+  <div class="b-example-divider"></div>
+</div>
+</div>
 
-    </select>
-  </div>
-  <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label">Vraag</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
+  <!--formulier ends-->
+  <div class="b-example-divider"></div>
+  <div class="b-example-divider"></div>
+  <div class="b-example-divider"></div>
 
+    <!--footer-->
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">© Erika Kraus</span>
+    </div>
 
-  <div class="container">
-    <footer class="py-3 my-4">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
-        <li class="nav-item"><a href="cv.html" class="nav-link px-2 text-muted">CV</a></li>
-        <li class="nav-item"><a href="hobby.html" class="nav-link px-2 text-muted">Interesses</a></li>
-        <li class="nav-item"><a href="contact.html" class="nav-link px-2 text-muted">Contact</a></li>
-      </ul>
-      <p class="text-center text-muted">© Erika Kraus</p>
-    </footer>
-  </div>
-  
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="www.twitter.com"><img src="images/twitter-svgrepo-com.svg" Bootstrap"
+            width="20" height="20">
+      <li class="ms-3"><a class="text-muted" href="www.instagram.com"><img src="images/instagram-svgrepo-com.svg"
+            alt="Bootstrap" width="25" height="25">
+      <li class="ms-3"><a class="text-muted" href="www.facebook.com"><img src="images/facebook-svgrepo-com.svg"
+            alt="Bootstrap" width="20" height="20">
+    </ul>
+  </footer>
+  <!--footer end-->
+
   <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
