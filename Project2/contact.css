@@ -1,0 +1,19 @@
+.b-example-divider {
+    height: 20px;
+    border-width: 1px 0;
+}
+
+
+
+.spatiering {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.backgroundimage {
+    background-image: url(images/monstera_50opacity.png);
+    background-size: cover;
+    opacity: 100%;
+    height: 100vh;
+}
+
